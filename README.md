@@ -89,10 +89,15 @@ Um ambiente integrado de desenvolvimento que centraliza em um único lugar o com
     
 ## Fluxo 
 * Tipos de fluxos
-    While 
+    While
+
     If
+    
     For 
+    
     Switch
 
+
     Boolean
+    
     Break
