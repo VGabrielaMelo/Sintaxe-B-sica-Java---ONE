@@ -59,13 +59,13 @@ Um ambiente integrado de desenvolvimento que centraliza em um único lugar o com
         idade = 21; 
         System.out.println(idade);
 
-* Tipos de variaveis
+### Tipos de variaveis
     char => 'a';
         | Tipos Char so podem receber um único caracter e com aspas simples |
 
     String => "Alura cursos online de tecnologia"
 
-* Tipos de variaveis numericas
+### Tipos de variaveis numericas
     int => 1;
         | Arredonda o resultado. Int com Int = INT |
 
@@ -82,14 +82,16 @@ Um ambiente integrado de desenvolvimento que centraliza em um único lugar o com
 
     byte => b = 127;
 
-* Conversão de variaveis 
+### Conversão de variaveis 
     EX.: double salario = 1270.50;
         int valor = (int) salario;
         System.out.println(valor);
     
 ## Fluxo 
-* Tipos de fluxos
+### Tipos de fluxos
     While
+        - Na expressão condicional do while é possível utilizar qualquer operador de comparação (< [menor], > [maior], <= [menor ou igual], >= [maior ou igual], == [igual a] e != [diferente de]) e qualquer operador lógico (&& [and], || [ou]).
+        - O while sempre precisará de uma expressão condicional que definirá quando o laço deve ser interrompido.
 
     If
     
@@ -97,7 +99,8 @@ Um ambiente integrado de desenvolvimento que centraliza em um único lugar o com
     
     Switch
 
-
     Boolean
+        - Os operadores lógicos devem ter no lado esquerdo e direito uma expressão booleana.
     
     Break
+        - Para a execução do laço mais interno que contém o comando break e continua executando os laços mais externos.
