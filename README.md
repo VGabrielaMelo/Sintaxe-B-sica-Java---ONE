@@ -90,7 +90,7 @@ Um ambiente integrado de desenvolvimento que centraliza em um único lugar o com
         System.out.println(valor);
     
 ## Fluxo 
-### Tipos de fluxos
+- Tipos de fluxos
     - While
         - Na expressão condicional do while é possível utilizar qualquer operador de comparação (< [menor], > [maior], 
             <= [menor ou igual], >= [maior ou igual], == [igual a] e != [diferente de]) e 
