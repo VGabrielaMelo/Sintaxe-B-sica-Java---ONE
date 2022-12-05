@@ -4,6 +4,8 @@
 - Segura 
 - Onipresente
 
+
+
 - Pareciada com C++
 - Utiliza muitas bibliotecas e tem uma grande comunidade 
 
@@ -11,7 +13,7 @@
 Para facilitar o entendimento entre o código (executável) e o destino. 
 - Ele ira executar o código independente do sistema operacional
 
-* Importancia da Máquina Virtual 
+Importancia da Máquina Virtual 
 - Multi-Plataforma 
 - Gerenciamento de memória 
 - Segurança 
@@ -24,16 +26,16 @@ Para facilitar o entendimento entre o código (executável) e o destino.
 - Para ser executado precisa da JVM
 - É independente do sistema operacional
 
-* Diferença entre o executável do Windows (exe) e o executável do mundo Java (Bytecode)
+Diferença entre o executável do Windows (exe) e o executável do mundo Java (Bytecode)
 - Os executáveis do mundo Java são portáveis, os do mundo Windows não. 
 - Os executáveis do mundo Windows podem ser executados diretamente no sistema operacional, os do mundo Java precisam da máquina virtual.
 
 ## JRE / JDK 
 - O JRE é o ambiente para executar uma aplicação Java.
-    JRE = JDK + bibliotecas
+    - JRE = JDK + bibliotecas
 
 - O JDK é o ambiente para executar uma aplicação Java e possui várias ferramentas de desenvolvimento. 
-    JDK = JRE + ferramentas de desenvolvimento
+    - JDK = JRE + ferramentas de desenvolvimento
 
 ## Compilamento 
 Realizado através do Prompt
@@ -60,27 +62,27 @@ Um ambiente integrado de desenvolvimento que centraliza em um único lugar o com
         System.out.println(idade);
 
 ### Tipos de variaveis
-    char => 'a';
+    - char => 'a';
         | Tipos Char so podem receber um único caracter e com aspas simples |
 
-    String => "Alura cursos online de tecnologia"
+    - String => "Alura cursos online de tecnologia"
 
 ### Tipos de variaveis numericas
-    int => 1;
+    - int => 1;
         | Arredonda o resultado. Int com Int = INT |
 
-    double => 2.8;
+    - double => 2.8;
         | Pelo menos um dos valores tem que estar em formato double para realizar operações |
 
-    float => flutuante = 3.14f;
+    - float => flutuante = 3.14f;
         | F obrigatório no final |
 
-    long => grande = 1234567891011L; 
+    - long => grande = 1234567891011L; 
         | L obrigatório no final |
 
-    short => pequeno = 2131;
+    - short => pequeno = 2131;
 
-    byte => b = 127;
+    - byte => b = 127;
 
 ### Conversão de variaveis 
     EX.: double salario = 1270.50;
@@ -89,20 +91,20 @@ Um ambiente integrado de desenvolvimento que centraliza em um único lugar o com
     
 ## Fluxo 
 ### Tipos de fluxos
-    While
+    - While
         - Na expressão condicional do while é possível utilizar qualquer operador de comparação (< [menor], > [maior], 
             <= [menor ou igual], >= [maior ou igual], == [igual a] e != [diferente de]) e 
             qualquer operador lógico (&& [and], || [ou]).
         - O while sempre precisará de uma expressão condicional que definirá quando o laço deve ser interrompido.
 
-    If
+    - If
     
-    For 
+    - For 
     
-    Switch
+    - Switch
 
-    Boolean
+    - Boolean
         - Os operadores lógicos devem ter no lado esquerdo e direito uma expressão booleana.
     
-    Break
+    - Break
         - Para a execução do laço mais interno que contém o comando break e continua executando os laços mais externos.
