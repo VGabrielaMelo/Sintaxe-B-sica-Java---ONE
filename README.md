@@ -90,12 +90,14 @@ Um ambiente integrado de desenvolvimento que centraliza em um único lugar o com
         System.out.println(valor);
     
 ## Fluxo 
-- Tipos de fluxos
+### Tipos de fluxos
     - While
-        - Na expressão condicional do while é possível utilizar qualquer operador de comparação (< [menor], > [maior], 
-            <= [menor ou igual], >= [maior ou igual], == [igual a] e != [diferente de]) e 
-            qualquer operador lógico (&& [and], || [ou]).
-        - O while sempre precisará de uma expressão condicional que definirá quando o laço deve ser interrompido.
+        - Na expressão condicional do while é possível utilizar qualquer operador de comparação 
+        (< [menor], > [maior], <= [menor ou igual], >= [maior ou igual], == [igual a] 
+        e != [diferente de]) e qualquer operador lógico (&& [and], || [ou]).
+       
+        - O while sempre precisará de uma expressão condicional que definirá quando o laço 
+        deve ser interrompido.
 
     - If
     
@@ -107,4 +109,5 @@ Um ambiente integrado de desenvolvimento que centraliza em um único lugar o com
         - Os operadores lógicos devem ter no lado esquerdo e direito uma expressão booleana.
     
     - Break
-        - Para a execução do laço mais interno que contém o comando break e continua executando os laços mais externos.
+        - Para a execução do laço mais interno que contém o comando break e 
+            continua executando os laços mais externos.
